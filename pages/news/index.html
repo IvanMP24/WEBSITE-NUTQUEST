@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noticias y Actualizaciones - NutQuest</title>
+    <meta name="description" content="Últimas noticias, actualizaciones y notas de versión de NutQuest." />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--=========================
+        HEADER - Modern Navigation
+        =========================-->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="../../index.html" class="logo">
+                    <img src="../../assets/img/logo/logo-nutquest.png" alt="NutQuest" />
+                </a>
+
+                <nav class="nav-clean">
+                    <a href="../../index.html" class="nav-item">Inicio</a>
+                    <a href="index.html" class="nav-item active">Noticias</a>
+                    <a href="../about/index.html" class="nav-item">Sobre NutQuest</a>
+                </nav>
+
+                <div class="header-cta">
+                    <a href="../../index.html#descargar" class="btn btn-primary btn-sm">Descargar app</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--=========================
+          HERO AAA - Noticias
+          =========================-->
+        <section class="hero-aaa"
+            style="background-image: url('../../assets/img/backgrounds/news_header.png'); min-height: 70vh;">
+            <div class="hero-aaa-content" style="max-width: 800px;">
+                <h1 class="title-aaa-hero" style="font-size: clamp(3rem, 7vw, 4rem);">
+                    NOTICIAS Y ACTUALIZACIONES
+                </h1>
+
+                <p class="subtitle-aaa" style="margin: var(--space-6) auto 0; font-size: var(--text-xl);">
+                    Descubre las últimas novedades: nuevos mundos, modos de juego y mejoras de IA.
+                </p>
+            </div>
+        </section>
+
+        <!--=========================
+          SECCIÓN IMAGEN FONDO - Noticias Personalizadas
+          =========================-->
+        <section class="section-image-bg overlay-dark"
+            style="background-image: url('../../assets/img/backgrounds/wallpaper_green.png'); padding: var(--space-12) 0;">
+            <div class="container" style="max-width: 1200px;">
+                <div style="display: grid; grid-template-columns: 1fr 380px; gap: var(--space-8); align-items: start;">
+                    <!-- News List -->
+                    <div style="display: flex; flex-direction: column; gap: var(--space-6);">
+                        <!-- News Card 1 -->
+                        <article class="card-modern"
+                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            onclick="window.location.href='leagues.html'">
+                            <div
+                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
+                                <img src="../../assets/img/news/leagues.jpg" alt="Ligas competitivas"
+                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
+                                <div>
+                                    <div
+                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                        <span
+                                            style="background: var(--color-primary-50); color: var(--color-primary-700); padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
+                                            v1.2.0
+                                        </span>
+                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">15 dic
+                                            2024</span>
+                                    </div>
+                                    <h2
+                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
+                                        Llegan las ligas competitivas y recompensas
+                                    </h2>
+                                    <p
+                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
+                                        Sistema de ligas por divisiones con ascensos, descensos y cofres de recompensa
+                                        semanales.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- News Card 2 -->
+                        <article class="card-modern"
+                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            onclick="window.location.href='podcast.html'">
+                            <div
+                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
+                                <img src="../../assets/img/news/podcast.jpg" alt="Modo podcast"
+                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
+                                <div>
+                                    <div
+                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                        <span
+                                            style="background: var(--color-accent-50); color: var(--color-accent-700); padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
+                                            v1.1.0
+                                        </span>
+                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">30 nov
+                                            2024</span>
+                                    </div>
+                                    <h2
+                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
+                                        Nuevo modo podcast y cartas inteligentes
+                                    </h2>
+                                    <p
+                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
+                                        Escucha tus mundos en audio y repasa con cartas que se adaptan a tu progreso.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- News Card 3 -->
+                        <article class="card-modern"
+                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            onclick="window.location.href='launch.html'">
+                            <div
+                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
+                                <img src="../../assets/img/news/launch.jpg" alt="Lanzamiento oficial"
+                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
+                                <div>
+                                    <div
+                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                        <span
+                                            style="background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
+                                            Lanzamiento
+                                        </span>
+                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">10 nov
+                                            2024</span>
+                                    </div>
+                                    <h2
+                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
+                                        NutQuest sale al mundo
+                                    </h2>
+                                    <p
+                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
+                                        Primera versión pública con mundos personalizados, ejercicios adaptativos y
+                                        ligas.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Sidebar Personalizado NutQuest -->
+                    <aside style="position: sticky; top: 100px;">
+                        <!-- Sidebar Personalizado NutQuest - Sticky Único -->
+                        <div class="card-modern"
+                            style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);">
+                            <div style="text-align: center; margin-bottom: var(--space-6);">
+                                <h3
+                                    style="font-family: var(--font-display); font-size: var(--text-2xl); font-weight: 700; margin-bottom: var(--space-3); color: var(--color-primary-700);">
+                                    Únete a la Comunidad
+                                </h3>
+                                <p
+                                    style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
+                                    Recibe las últimas actualizaciones sobre nuevos mundos, funcionalidades y eventos de
+                                    la comunidad NutQuest.
+                                </p>
+                            </div>
+
+                            <form action="https://formspree.io/f/tu-endpoint-news" method="POST">
+                                <div style="margin-bottom: var(--space-4);">
+                                    <input type="email" name="_replyto" required placeholder="tu@email.com"
+                                        style="width: 100%; padding: var(--space-3); border: 2px solid var(--color-neutral-200); border-radius: var(--radius-md); font-size: var(--text-base); transition: all var(--transition-base);"
+                                        onfocus="this.style.borderColor='var(--color-primary-500)'"
+                                        onblur="this.style.borderColor='var(--color-neutral-200)'" />
+                                </div>
+                                <button type="submit" class="btn btn-primary"
+                                    style="width: 100%; background: var(--color-forest); border: none;">
+                                    Suscribirme
+                                </button>
+                            </form>
+
+                            <!-- Redes Sociales Integradas -->
+                            <div
+                                style="margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--color-neutral-200);">
+                                <div style="display: flex; gap: var(--space-3); justify-content: center;">
+                                    <a href="https://instagram.com/nutquest" target="_blank" rel="noopener"
+                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
+                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
+                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                        title="Instagram">
+                                        IG
+                                    </a>
+                                    <a href="https://tiktok.com/@nutquest" target="_blank" rel="noopener"
+                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
+                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
+                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                        title="TikTok">
+                                        TT
+                                    </a>
+                                    <a href="https://youtube.com/@nutquest" target="_blank" rel="noopener"
+                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
+                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
+                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                        title="YouTube">
+                                        YT
+                                    </a>
+                                    <a href="https://twitter.com/nutquest" target="_blank" rel="noopener"
+                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
+                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
+                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                        title="Twitter / X">
+                                        X
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=========================
+        FOOTER - Minimal & Modern
+        =========================-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+                <div class="footer-col">
+                    <h4>Producto</h4>
+                    <a href="../../index.html#como-funciona">Cómo funciona</a>
+                    <a href="../../index.html#descargar">Descargar app</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Compañía</h4>
+                    <a href="../about/index.html">Sobre NutQuest</a>
+                    <a href="index.html">Noticias</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="../legal/terminos.html">Términos de uso</a>
+                    <a href="../legal/privacidad.html">Política de privacidad</a>
+                    <a href="../legal/cookies.html">Cookies</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Social</h4>
+                    <a href="https://instagram.com/nutquest" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://tiktok.com/@nutquest" target="_blank" rel="noopener">TikTok</a>
+                    <a href="https://youtube.com/@nutquest" target="_blank" rel="noopener">YouTube</a>
+                    <a href="https://twitter.com/nutquest" target="_blank" rel="noopener">Twitter/X</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© <span id="current-year"></span> NutQuest. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/main.js"></script>
+</body>
+
+</html>

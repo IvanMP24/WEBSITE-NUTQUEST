@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <pattern id="patronVerdeOriginal" x="0" y="0" width="300" height="300" 
+             patternUnits="userSpaceOnUse"
+             patternTransform="rotate(45)">
+      
+      <rect width="300" height="300" fill="#82BB71"/>
+      
+      <defs>
+        <g id="rH_1"><rect width="100" height="50" rx="8" ry="8" fill="#8CC47B" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="rV_1"><rect width="50" height="100" rx="8" ry="8" fill="#8CC47B" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="sq_1"><rect width="50" height="50" rx="8" ry="8" fill="#8CC47B" stroke="#82BB71" stroke-width="2"/></g>
+
+        <g id="rH_2"><rect width="100" height="50" rx="8" ry="8" fill="#95CA82" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="rV_2"><rect width="50" height="100" rx="8" ry="8" fill="#95CA82" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="sq_2"><rect width="50" height="50" rx="8" ry="8" fill="#95CA82" stroke="#82BB71" stroke-width="2"/></g>
+
+        <g id="rH_3"><rect width="100" height="50" rx="8" ry="8" fill="#99CF84" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="rV_3"><rect width="50" height="100" rx="8" ry="8" fill="#99CF84" stroke="#82BB71" stroke-width="2"/></g>
+        <g id="sq_3"><rect width="50" height="50" rx="8" ry="8" fill="#99CF84" stroke="#82BB71" stroke-width="2"/></g>
+      </defs>
+
+      <use href="#rH_1" x="0" y="0" />
+      <use href="#sq_2" x="100" y="0" />
+      <use href="#sq_3" x="0" y="50" />
+      <use href="#rV_2" x="50" y="50" />
+      <use href="#rV_3" x="100" y="50" />
+      <use href="#sq_1" x="0" y="100" />
+
+      <use href="#rH_2" x="150" y="0" />
+      <use href="#sq_3" x="250" y="0" />
+      <use href="#sq_1" x="150" y="50" />
+      <use href="#rV_3" x="200" y="50" />
+      <use href="#rV_1" x="250" y="50" />
+      <use href="#sq_2" x="150" y="100" />
+
+      <use href="#rH_3" x="0" y="150" />
+      <use href="#sq_1" x="100" y="150" />
+      <use href="#sq_2" x="0" y="200" />
+      <use href="#rV_1" x="50" y="200" />
+      <use href="#rV_2" x="100" y="200" />
+      <use href="#sq_3" x="0" y="250" />
+
+      <use href="#rH_2" x="150" y="150" />
+      <use href="#sq_1" x="250" y="150" />
+      <use href="#sq_3" x="150" y="200" />
+      <use href="#rV_2" x="200" y="200" />
+      <use href="#rV_1" x="250" y="200" />
+      <use href="#sq_3" x="150" y="250" />
+
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#patronVerdeOriginal)" />
+</svg>
