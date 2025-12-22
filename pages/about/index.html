@@ -41,22 +41,17 @@
 
   <main>
     <!--=========================
-          PAGE HERO
+          HERO AAA - About
           =========================-->
-    <section class="page-hero"
-      style="margin-top: 80px; padding: var(--space-16) 0 var(--space-12); background: linear-gradient(135deg, var(--color-primary-50) 0%, var(--color-neutral-50) 100%);">
-      <div class="container">
-        <div style="max-width: 800px; margin: 0 auto; text-align: center;" class="reveal">
-          <span class="section-eyebrow">Quiénes somos</span>
-          <h1
-            style="font-family: var(--font-display); font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 800; margin: var(--space-4) 0; line-height: 1.1;">
-            Hacer que aprender sea tan <span class="text-gradient">adictivo como jugar</span>
-          </h1>
-          <p style="font-size: var(--text-xl); color: var(--color-neutral-600); line-height: var(--leading-relaxed);">
-            NutQuest nace para transformar cualquier contenido educativo en una aventura memorable,
-            combinando ciencia del aprendizaje, narrativa de videojuego e inteligencia artificial.
-          </p>
-        </div>
+    <section class="hero-aaa"
+      style="background-image: url('../../assets/img/backgrounds/team_header.png'); min-height: 70vh;">
+      <div class="hero-aaa-content" style="max-width: 800px;">
+        <h1 class="title-aaa-hero" style="font-size: clamp(3rem, 7vw, 4rem);">
+          SOBRE NUTQUEST
+        </h1>
+        <p class="subtitle-aaa-hero" style="font-size: clamp(1.125rem, 2.5vw, 1.5rem);">
+          Transformando el aprendizaje en una aventura memorable
+        </p>
       </div>
     </section>
 
@@ -345,49 +340,58 @@
           </div>
 
           <div class="section-header reveal" style="margin-top: var(--space-16);">
-            <h2 class="section-title-modern">Nuestro equipo</h2>
+            <h2 class="section-title-modern">El Fundador</h2>
             <p class="section-description">
-              Un equipo pequeño pero centrado en combinar educación, diseño de juegos y tecnología.
+              Conoce la historia detrás de NutQuest y la misión de transformar el aprendizaje.
             </p>
           </div>
 
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-8);">
-            <div class="card-modern reveal" style="text-align: center;">
+          <!-- Sección Fundador Personalizada -->
+          <div class="reveal"
+            style="display: grid; grid-template-columns: 380px 1fr; gap: var(--space-12); align-items: center; max-width: 1100px; margin: 0 auto;">
+            <!-- Foto Fundador -->
+            <div style="display: flex; justify-content: center;">
               <div
-                style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-primary); margin: 0 auto var(--space-4);">
+                style="width: 300px; height: 300px; border-radius: 50%; border: 6px solid var(--color-forest); overflow: hidden; box-shadow: var(--shadow-xl); background: white;">
+                <img src="../../assets/img/characters/ivan.png" alt="Iván - Fundador de NutQuest"
+                  style="width: 100%; height: 100%; object-fit: cover; object-position: center;" />
               </div>
-              <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Nombre 1</h3>
-              <p style="color: var(--color-primary-600); font-weight: 600; margin-bottom: var(--space-3);">
-                Fundador · Producto & Educación
-              </p>
-              <p style="color: var(--color-neutral-600);">
-                Diseña la experiencia pedagógica y se asegura de que cada mundo tenga un sentido educativo claro.
-              </p>
             </div>
 
-            <div class="card-modern reveal reveal-delay-1" style="text-align: center;">
-              <div
-                style="width: 100px; height: 100px; border-radius: 50%; background: var(--gradient-accent); margin: 0 auto var(--space-4);">
-              </div>
-              <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Nombre 2</h3>
-              <p style="color: var(--color-primary-600); font-weight: 600; margin-bottom: var(--space-3);">
-                Tecnología & Datos
+            <!-- Historia Fundador -->
+            <div class="card-modern" style="background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);">
+              <h3
+                style="font-family: var(--font-display); font-size: var(--text-3xl); font-weight: 700; margin-bottom: var(--space-2); color: var(--color-neutral-900);">
+                Iván
+              </h3>
+              <p
+                style="color: var(--color-primary-600); font-weight: 600; font-size: var(--text-lg); margin-bottom: var(--space-6); text-transform: uppercase; letter-spacing: 0.05em;">
+                Fundador y CEO
               </p>
-              <p style="color: var(--color-neutral-600);">
-                Se encarga de la plataforma y de cómo los datos se utilizan para personalizar la experiencia.
-              </p>
-            </div>
 
-            <div class="card-modern reveal reveal-delay-2" style="text-align: center;">
-              <div
-                style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #3b82f6, #8b5cf6); margin: 0 auto var(--space-4);">
-              </div>
-              <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Nombre 3</h3>
-              <p style="color: var(--color-primary-600); font-weight: 600; margin-bottom: var(--space-3);">
-                Arte & Game Design
+              <h4
+                style="font-size: var(--text-xl); font-weight: 600; margin-bottom: var(--space-4); color: var(--color-forest);">
+                Por qué creé NutQuest
+              </h4>
+
+              <p
+                style="color: var(--color-neutral-700); line-height: var(--leading-relaxed); margin-bottom: var(--space-4); font-size: var(--text-lg);">
+                Siempre he creído que aprender debería ser una experiencia apasionante, no una obligación tediosa.
+                NutQuest nació de la convicción de que podemos transformar la forma en que las personas curiosas
+                y con verdaderas ganas de aprender acceden al conocimiento.
               </p>
-              <p style="color: var(--color-neutral-600);">
-                Da vida al bosque, a la ardilla y a todo el universo visual de NutQuest.
+
+              <p
+                style="color: var(--color-neutral-700); line-height: var(--leading-relaxed); margin-bottom: var(--space-4); font-size: var(--text-lg);">
+                Mi misión es hacer que estudiar sea tan atractivo y adictivo como jugar a tu videojuego favorito.
+                Combinando ciencia del aprendizaje, narrativa inmersiva e inteligencia artificial, estamos
+                construyendo una plataforma donde cada persona puede convertir cualquier tema en una aventura épica.
+              </p>
+
+              <p
+                style="color: var(--color-neutral-700); line-height: var(--leading-relaxed); font-size: var(--text-lg);">
+                NutQuest no es solo una app educativa: es un nuevo paradigma donde la curiosidad se recompensa,
+                el progreso se visualiza como en un RPG, y aprender se convierte en la aventura que siempre debió ser.
               </p>
             </div>
           </div>
@@ -401,16 +405,10 @@
         =========================-->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3 style="font-family: var(--font-display);">NutQuest</h3>
-          <p>Aprender nunca había sido tan parecido a jugar.</p>
-        </div>
-
+      <div class="footer-grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
         <div class="footer-col">
           <h4>Producto</h4>
           <a href="../../index.html#como-funciona">Cómo funciona</a>
-          <a href="../../index.html#premium">Planes</a>
           <a href="../../index.html#descargar">Descargar app</a>
         </div>
 
@@ -418,7 +416,6 @@
           <h4>Compañía</h4>
           <a href="index.html">Sobre NutQuest</a>
           <a href="../news/index.html">Noticias</a>
-          <a href="../../index.html#contacto">Contacto</a>
         </div>
 
         <div class="footer-col">
