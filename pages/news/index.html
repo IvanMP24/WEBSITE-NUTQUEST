@@ -8,7 +8,6 @@
     <meta name="description" content="Últimas noticias, actualizaciones y notas de versión de NutQuest." />
     <link rel="stylesheet" href="../../assets/css/styles.css" />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,9 +16,6 @@
 </head>
 
 <body>
-    <!--=========================
-        HEADER - Modern Navigation
-        =========================-->
     <header class="site-header">
         <div class="container">
             <div class="header-inner">
@@ -41,9 +37,6 @@
     </header>
 
     <main>
-        <!--=========================
-          HERO AAA - Noticias
-          =========================-->
         <section class="hero-aaa"
             style="background-image: url('../../assets/img/backgrounds/news_header.png'); min-height: 70vh;">
             <div class="hero-aaa-content" style="max-width: 800px;">
@@ -57,111 +50,131 @@
             </div>
         </section>
 
-        <!--=========================
-          SECCIÓN IMAGEN FONDO - Noticias Personalizadas
-          =========================-->
         <section class="section-image-bg overlay-dark"
             style="background-image: url('../../assets/img/backgrounds/wallpaper_green.png'); padding: var(--space-12) 0;">
-            <div class="container" style="max-width: 1200px;">
-                <div style="display: grid; grid-template-columns: 1fr 380px; gap: var(--space-8); align-items: start;">
-                    <!-- News List -->
-                    <div style="display: flex; flex-direction: column; gap: var(--space-6);">
-                        <!-- News Card 1 -->
+            <div class="container" style="max-width: 100%; padding: 0;">
+                <div
+                    style="display: grid; grid-template-columns: 1fr 600px; gap: var(--space-8); align-items: start; max-width: 1600px; margin: 0 auto; padding: 0 var(--space-8);">
+
+                    <div
+                        style="display: flex; flex-direction: column; gap: var(--space-5); height: calc(100vh - 200px); overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none; padding-right: var(--space-4);">
+
+                        <style>
+                            div::-webkit-scrollbar {
+                                display: none;
+                            }
+                        </style>
+
                         <article class="card-modern"
-                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            style="cursor: pointer; padding: 24px; transition: all var(--transition-base); background: white; min-height: 220px; display: flex; flex-direction: row; gap: 24px; border-radius: 24px; align-items: start;"
                             onclick="window.location.href='leagues.html'">
+
                             <div
-                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
-                                <img src="../../assets/img/news/leagues.jpg" alt="Ligas competitivas"
-                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
-                                <div>
-                                    <div
-                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
-                                        <span
-                                            style="background: var(--color-primary-50); color: var(--color-primary-700); padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
-                                            v1.2.0
-                                        </span>
-                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">15 dic
-                                            2024</span>
-                                    </div>
-                                    <h2
-                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
-                                        Llegan las ligas competitivas y recompensas
-                                    </h2>
-                                    <p
-                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
-                                        Sistema de ligas por divisiones con ascensos, descensos y cofres de recompensa
-                                        semanales.
-                                    </p>
+                                style="display: flex; flex-direction: column; width: 240px; flex-shrink: 0; gap: 12px;">
+                                <div style="width: 100%; height: 150px; position: relative;">
+                                    <img src="../../assets/img/news/leagues.jpg" alt="Ligas competitivas"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
                                 </div>
+                                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <span
+                                        style="background: #bfdbfe; color: #1e40af; padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase;">
+                                        V.1.2.0
+                                    </span>
+                                    <span style="color: #64748b; font-size: 13px; font-weight: 500;">
+                                        15 dic 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div
+                                style="display: flex; flex-direction: column; justify-content: start; text-align: left; flex-grow: 1;">
+                                <h2
+                                    style="font-size: 24px; font-weight: 800; line-height: 1.2; color: var(--color-neutral-900); margin: 0 0 12px 0;">
+                                    Llegan las ligas competitivas y recompensas
+                                </h2>
+                                <p
+                                    style="color: var(--color-neutral-600); font-size: 15px; line-height: 1.6; margin: 0; text-align: justify;">
+                                    Sistema de ligas por divisiones con ascensos, descensos y cofres de recompensa
+                                    semanales. Compite con otros estudiantes y sube de rango para demostrar tu
+                                    conocimiento.
+                                </p>
                             </div>
                         </article>
 
-                        <!-- News Card 2 -->
                         <article class="card-modern"
-                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            style="cursor: pointer; padding: 24px; transition: all var(--transition-base); background: white; min-height: 220px; display: flex; flex-direction: row; gap: 24px; border-radius: 24px; align-items: start;"
                             onclick="window.location.href='podcast.html'">
+
                             <div
-                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
-                                <img src="../../assets/img/news/podcast.jpg" alt="Modo podcast"
-                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
-                                <div>
-                                    <div
-                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
-                                        <span
-                                            style="background: var(--color-accent-50); color: var(--color-accent-700); padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
-                                            v1.1.0
-                                        </span>
-                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">30 nov
-                                            2024</span>
-                                    </div>
-                                    <h2
-                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
-                                        Nuevo modo podcast y cartas inteligentes
-                                    </h2>
-                                    <p
-                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
-                                        Escucha tus mundos en audio y repasa con cartas que se adaptan a tu progreso.
-                                    </p>
+                                style="display: flex; flex-direction: column; width: 240px; flex-shrink: 0; gap: 12px;">
+                                <div style="width: 100%; height: 150px; position: relative;">
+                                    <img src="../../assets/img/news/podcast.jpg" alt="Modo podcast"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
                                 </div>
+                                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <span
+                                        style="background: #fde68a; color: #92400e; padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase;">
+                                        V.1.1.0
+                                    </span>
+                                    <span style="color: #64748b; font-size: 13px; font-weight: 500;">
+                                        30 nov 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div
+                                style="display: flex; flex-direction: column; justify-content: start; text-align: left; flex-grow: 1;">
+                                <h2
+                                    style="font-size: 24px; font-weight: 800; line-height: 1.2; color: var(--color-neutral-900); margin: 0 0 12px 0;">
+                                    Nuevo modo podcast y cartas inteligentes
+                                </h2>
+                                <p
+                                    style="color: var(--color-neutral-600); font-size: 15px; line-height: 1.6; margin: 0; text-align: justify;">
+                                    Escucha tus mundos en audio y repasa con cartas que se adaptan a tu progreso.
+                                    Ideal para estudiar mientras caminas o realizas otras actividades sin mirar la
+                                    pantalla.
+                                </p>
                             </div>
                         </article>
 
-                        <!-- News Card 3 -->
                         <article class="card-modern"
-                            style="cursor: pointer; padding: var(--space-6); transition: all var(--transition-base); background: white;"
+                            style="cursor: pointer; padding: 24px; transition: all var(--transition-base); background: white; min-height: 220px; display: flex; flex-direction: row; gap: 24px; border-radius: 24px; align-items: start;"
                             onclick="window.location.href='launch.html'">
+
                             <div
-                                style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-4); align-items: center;">
-                                <img src="../../assets/img/news/launch.jpg" alt="Lanzamiento oficial"
-                                    style="width: 100%; height: 140px; object-fit: cover; border-radius: var(--radius-lg);" />
-                                <div>
-                                    <div
-                                        style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
-                                        <span
-                                            style="background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700; text-transform: uppercase;">
-                                            Lanzamiento
-                                        </span>
-                                        <span style="color: var(--color-neutral-500); font-size: var(--text-sm);">10 nov
-                                            2024</span>
-                                    </div>
-                                    <h2
-                                        style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); line-height: 1.3;">
-                                        NutQuest sale al mundo
-                                    </h2>
-                                    <p
-                                        style="color: var(--color-neutral-600); font-size: var(--text-sm); line-height: var(--leading-relaxed);">
-                                        Primera versión pública con mundos personalizados, ejercicios adaptativos y
-                                        ligas.
-                                    </p>
+                                style="display: flex; flex-direction: column; width: 240px; flex-shrink: 0; gap: 12px;">
+                                <div style="width: 100%; height: 150px; position: relative;">
+                                    <img src="../../assets/img/news/launch.jpg" alt="Lanzamiento oficial"
+                                        style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                    <span
+                                        style="background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase;">
+                                        Lanzamiento
+                                    </span>
+                                    <span style="color: #64748b; font-size: 13px; font-weight: 500;">
+                                        10 nov 2024
+                                    </span>
                                 </div>
                             </div>
+
+                            <div
+                                style="display: flex; flex-direction: column; justify-content: start; text-align: left; flex-grow: 1;">
+                                <h2
+                                    style="font-size: 24px; font-weight: 800; line-height: 1.2; color: var(--color-neutral-900); margin: 0 0 12px 0;">
+                                    NutQuest sale al mundo
+                                </h2>
+                                <p
+                                    style="color: var(--color-neutral-600); font-size: 15px; line-height: 1.6; margin: 0; text-align: justify;">
+                                    Primera versión pública con mundos personalizados, ejercicios adaptativos y
+                                    ligas. Únete a miles de estudiantes que ya están mejorando su aprendizaje.
+                                </p>
+                            </div>
                         </article>
+
                     </div>
 
-                    <!-- Sidebar Personalizado NutQuest -->
-                    <aside style="position: sticky; top: 100px;">
-                        <!-- Sidebar Personalizado NutQuest - Sticky Único -->
+                    <aside style="position: sticky; top: 120px; height: fit-content;">
                         <div class="card-modern"
                             style="background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);">
                             <div style="text-align: center; margin-bottom: var(--space-6);">
@@ -189,37 +202,49 @@
                                 </button>
                             </form>
 
-                            <!-- Redes Sociales Integradas -->
                             <div
                                 style="margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--color-neutral-200);">
-                                <div style="display: flex; gap: var(--space-3); justify-content: center;">
-                                    <a href="https://instagram.com/nutquest" target="_blank" rel="noopener"
-                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
-                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
-                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                <div
+                                    style="display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap;">
+                                    <a href="https://instagram.com/nutquest.app" target="_blank" rel="noopener"
+                                        style="width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none;"
+                                        onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+                                        onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'"
                                         title="Instagram">
-                                        IG
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                            <path
+                                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                        </svg>
                                     </a>
-                                    <a href="https://tiktok.com/@nutquest" target="_blank" rel="noopener"
-                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
-                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
-                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                    <a href="https://tiktok.com/@nutquest.app" target="_blank" rel="noopener"
+                                        style="width: 48px; height: 48px; border-radius: 50%; background: #000; display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none;"
+                                        onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+                                        onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'"
                                         title="TikTok">
-                                        TT
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                            <path
+                                                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+                                        </svg>
                                     </a>
-                                    <a href="https://youtube.com/@nutquest" target="_blank" rel="noopener"
-                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
-                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
-                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
+                                    <a href="https://youtube.com/@nutquest.app" target="_blank" rel="noopener"
+                                        style="width: 48px; height: 48px; border-radius: 50%; background: #FF0000; display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none;"
+                                        onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+                                        onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'"
                                         title="YouTube">
-                                        YT
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                            <path
+                                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                        </svg>
                                     </a>
-                                    <a href="https://twitter.com/nutquest" target="_blank" rel="noopener"
-                                        style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-neutral-100); display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none; color: var(--color-neutral-700); font-weight: 600; font-size: var(--text-sm);"
-                                        onmouseover="this.style.background='var(--color-primary-500)'; this.style.color='white'"
-                                        onmouseout="this.style.background='var(--color-neutral-100)'; this.style.color='var(--color-neutral-700)'"
-                                        title="Twitter / X">
-                                        X
+                                    <a href="https://twitter.com/nutquest.app" target="_blank" rel="noopener"
+                                        style="width: 48px; height: 48px; border-radius: 50%; background: #000; display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); text-decoration: none;"
+                                        onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+                                        onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='none'"
+                                        title="X (Twitter)">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                                            <path
+                                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
@@ -230,9 +255,6 @@
         </section>
     </main>
 
-    <!--=========================
-        FOOTER - Minimal & Modern
-        =========================-->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
@@ -257,10 +279,10 @@
 
                 <div class="footer-col">
                     <h4>Social</h4>
-                    <a href="https://instagram.com/nutquest" target="_blank" rel="noopener">Instagram</a>
-                    <a href="https://tiktok.com/@nutquest" target="_blank" rel="noopener">TikTok</a>
-                    <a href="https://youtube.com/@nutquest" target="_blank" rel="noopener">YouTube</a>
-                    <a href="https://twitter.com/nutquest" target="_blank" rel="noopener">Twitter/X</a>
+                    <a href="https://instagram.com/nutquest.app" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://tiktok.com/@nutquest.app" target="_blank" rel="noopener">TikTok</a>
+                    <a href="https://youtube.com/@nutquest.app" target="_blank" rel="noopener">YouTube</a>
+                    <a href="https://twitter.com/nutquest.app" target="_blank" rel="noopener">Twitter/X</a>
                 </div>
             </div>
 
