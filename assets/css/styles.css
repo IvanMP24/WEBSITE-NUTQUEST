@@ -50,9 +50,9 @@
   --color-accent-700: #b84727;
 
   /* Fondos Naturales */
-  --color-parchment: #f5f1e8;
+  --color-parchment: #FFFAEB;
   --color-parchment-dark: #e8e3d8;
-  --color-cream: #faf8f3;
+  --color-cream: #FFFAEB;
 
   /* Neutral - Tonos naturales */
   --color-neutral-50: #faf8f3;
@@ -1614,4 +1614,63 @@ textarea:focus-visible {
     --color-neutral-900: #f8fafc;
   }
   */
+}
+
+/* =========================
+   Full-Height Sections
+   ========================= */
+
+/* Section Cream - Full height with centering */
+.section-cream {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  padding: var(--space-12) var(--space-6);
+}
+
+.section-cream-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  gap: var(--space-16);
+  align-items: center;
+}
+
+.section-cream-content.reverse {
+  direction: rtl;
+}
+
+.section-cream-content.reverse>* {
+  direction: ltr;
+}
+
+/* Section Image Background - Full height with centering */
+.section-image-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: var(--space-12) var(--space-6);
+}
+
+.section-image-bg.overlay-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.section-image-bg>.container,
+.section-image-bg>div {
+  position: relative;
+  z-index: 2;
 }

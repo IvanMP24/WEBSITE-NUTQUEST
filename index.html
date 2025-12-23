@@ -112,8 +112,8 @@
     <!--=========================
           SECCIÓN IMAGEN FONDO - Ejercicios épicos
           =========================-->
-    <section class="section-image-bg overlay-dark"
-      style="background-image: url('assets/img/backgrounds/wallpaper_green.png')">
+    <section class="section-image-bg overlay-light"
+      style="background-image: url('assets/img/backgrounds/wallpaper_green.png'); padding: var(--space-6) 0;">
       <div class="container"
         style="max-width: 1400px; display: grid; grid-template-columns: 1fr 600px; gap: var(--space-12); align-items: center;">
         <div style="text-align: left;">
@@ -125,7 +125,7 @@
             estudio inteligentes. Y escucha los podcast para entender mejor el tema.
           </p>
         </div>
-        <div>
+        <div class="phone-mockup">
           <img src="assets/img/screenshots/app-gameplay.png" alt="Ejercicios de juego"
             style="border-radius: 20px; width: 550px; height: 800px; object-fit: cover; border-radius: 20px;" />
         </div>
@@ -163,8 +163,8 @@
     <!--=========================
           SECCIÓN IMAGEN FONDO - Mundos 
           =========================-->
-    <section class="section-image-bg overlay-dark"
-      style="background-image: url('assets/img/backgrounds/wallpaper_green.png')">
+    <section class="section-image-bg overlay-light"
+      style="background-image: url('assets/img/backgrounds/wallpaper_green.png'); padding: var(--space-6) 0;">
       <div class="container"
         style="max-width: 1400px; display: grid; grid-template-columns: 1fr 600px; gap: var(--space-12); align-items: center;">
         <div style="text-align: left;">
@@ -176,7 +176,7 @@
             Disfruta de las diferentes zonas de juegos, con dialogos personalizados y juegos interactivos.
           </p>
         </div>
-        <div>
+        <div class="phone-mockup">
           <img src="assets/img/screenshots/app-progress.png" alt="Podcasts personalizados"
             style="border-radius: 20px; width: 450px; height: 900px; object-fit: cover; border-radius: 20px;" />
         </div>
@@ -188,7 +188,7 @@
           =========================-->
     <section class="section-cream">
       <div class="section-cream-content">
-        <div>
+        <div class="phone-mockup">
           <img src="assets/img/screenshots/app-multiplayer.png" alt="Multijugador"
             style="border-radius: 20px; width: 550px; height: 800px; object-fit: cover; border-radius: 20px;" />
         </div>
@@ -259,12 +259,257 @@
           </ul>
         </div>
 
-        <div class="phone-mockup">
+        <div>
           <img src="assets/img/characters/ratatoskr-parental.png" alt="Panel para padres"
             style="border-radius: 20px;" />
         </div>
       </div>
     </section>
+
+    <!--=========================
+          SECCIÓN IMAGEN FONDO - Premium & Empresas
+          =========================-->
+    <section class="section-image-bg overlay-light premium-section"
+      style="background-image: url('assets/img/backgrounds/wallpaper_green.png'); padding: var(--space-6) 0;">
+      <div class="container" style="max-width: 1400px;">
+
+        <!-- Grid de dos columnas -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-12); align-items: start;">
+
+          <!-- Columna 1: Plan Premium -->
+          <div style="display: flex; flex-direction: column; gap: var(--space-8);">
+            <!-- Título principal centrado -->
+            <div style="text-align: left;">
+              <h2 class="title-aaa-white">
+                MODO VALHALLA
+              </h2>
+            </div>
+
+            <!-- Grid interno: Características (izquierda) y Estadísticas (derecha) -->
+            <div style="display: grid; grid-template-columns: 1fr auto; gap: var(--space-8); align-items: center;">
+
+              <!-- Características Premium - Izquierda -->
+              <div style="display: flex; flex-direction: column; gap: var(--space-3);">
+                <div class="premium-feature"
+                  style="display: flex; align-items: center; gap: var(--space-3); opacity: 0; transform: translateX(-20px); animation: slideInLeft 0.6s ease-out forwards; animation-delay: 0.1s;">
+                  <div
+                    style="width: 24px; height: 24px; border-radius: 50%; background: rgba(74, 222, 128, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; backdrop-filter: blur(8px); border: 1px solid rgba(74, 222, 128, 0.3);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3.5">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <span
+                    style="font-family: var(--font-body); font-size: var(--text-lg); font-weight: 600; color: white; letter-spacing: -0.01em;">Mundos
+                    y ejercicios ilimitados</span>
+                </div>
+
+                <div class="premium-feature"
+                  style="display: flex; align-items: center; gap: var(--space-3); opacity: 0; transform: translateX(-20px); animation: slideInLeft 0.6s ease-out forwards; animation-delay: 0.2s;">
+                  <div
+                    style="width: 24px; height: 24px; border-radius: 50%; background: rgba(74, 222, 128, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; backdrop-filter: blur(8px); border: 1px solid rgba(74, 222, 128, 0.3);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3.5">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <span
+                    style="font-family: var(--font-body); font-size: var(--text-lg); font-weight: 600; color: white; letter-spacing: -0.01em;">Podcasts
+                    personalizados con IA</span>
+                </div>
+
+                <div class="premium-feature"
+                  style="display: flex; align-items: center; gap: var(--space-3); opacity: 0; transform: translateX(-20px); animation: slideInLeft 0.6s ease-out forwards; animation-delay: 0.3s;">
+                  <div
+                    style="width: 24px; height: 24px; border-radius: 50%; background: rgba(74, 222, 128, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; backdrop-filter: blur(8px); border: 1px solid rgba(74, 222, 128, 0.3);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3.5">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <span
+                    style="font-family: var(--font-body); font-size: var(--text-lg); font-weight: 600; color: white; letter-spacing: -0.01em;">12+
+                    tipos de ejercicios avanzados</span>
+                </div>
+
+                <div class="premium-feature"
+                  style="display: flex; align-items: center; gap: var(--space-3); opacity: 0; transform: translateX(-20px); animation: slideInLeft 0.6s ease-out forwards; animation-delay: 0.4s;">
+                  <div
+                    style="width: 24px; height: 24px; border-radius: 50%; background: rgba(74, 222, 128, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; backdrop-filter: blur(8px); border: 1px solid rgba(74, 222, 128, 0.3);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3.5">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <span
+                    style="font-family: var(--font-body); font-size: var(--text-lg); font-weight: 600; color: white; letter-spacing: -0.01em;">Ligas
+                    Premium con recompensas</span>
+                </div>
+
+                <div class="premium-feature"
+                  style="display: flex; align-items: center; gap: var(--space-3); opacity: 0; transform: translateX(-20px); animation: slideInLeft 0.6s ease-out forwards; animation-delay: 0.5s;">
+                  <div
+                    style="width: 24px; height: 24px; border-radius: 50%; background: rgba(74, 222, 128, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; backdrop-filter: blur(8px); border: 1px solid rgba(74, 222, 128, 0.3);">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3.5">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </div>
+                  <span
+                    style="font-family: var(--font-body); font-size: var(--text-lg); font-weight: 600; color: white; letter-spacing: -0.01em;">Soporte
+                    prioritario 24/7</span>
+                </div>
+              </div>
+
+              <!-- Estadísticas con círculos animados - Derecha (Columna vertical) -->
+              <div
+                style="display: flex; flex-direction: column; gap: var(--space-5); padding: var(--space-4); background: rgba(0,0,0,0.15); border-radius: var(--radius-xl); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1);">
+
+                <!-- Estadística 1 -->
+                <div class="stat-item"
+                  style="display: flex; align-items: center; gap: var(--space-4); opacity: 0; transform: scale(0.8); animation: scaleIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; animation-delay: 0.2s;">
+                  <div style="position: relative; width: 90px; height: 90px; flex-shrink: 0;">
+                    <svg width="90" height="90"
+                      style="transform: rotate(-90deg); filter: drop-shadow(0 4px 12px rgba(74, 222, 128, 0.3));">
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="6" />
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="#4ade80" stroke-width="6"
+                        stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round"
+                        class="stat-circle-1">
+                      </circle>
+                    </svg>
+                    <div
+                      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                      <div
+                        style="font-family: var(--font-display); font-weight: 900; font-size: var(--text-2xl); color: #4ade80; line-height: 1;">
+                        <span class="counter-premium" data-target="75">0</span><span style="font-size: 0.85em;">%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="text-align: left;">
+                    <div
+                      style="font-family: var(--font-display); font-size: var(--text-base); font-weight: 700; color: white; line-height: 1.2;">
+                      Más eficaz</div>
+                  </div>
+                </div>
+
+                <!-- Estadística 2 -->
+                <div class="stat-item"
+                  style="display: flex; align-items: center; gap: var(--space-4); opacity: 0; transform: scale(0.8); animation: scaleIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; animation-delay: 0.4s;">
+                  <div style="position: relative; width: 90px; height: 90px; flex-shrink: 0;">
+                    <svg width="90" height="90"
+                      style="transform: rotate(-90deg); filter: drop-shadow(0 4px 12px rgba(255, 215, 0, 0.3));">
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="6" />
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="#FFD700" stroke-width="6"
+                        stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round"
+                        class="stat-circle-2">
+                      </circle>
+                    </svg>
+                    <div
+                      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                      <div
+                        style="font-family: var(--font-display); font-weight: 900; font-size: var(--text-3xl); color: #FFD700; line-height: 1;">
+                        3<span style="font-size: 0.7em;">x</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="text-align: left;">
+                    <div
+                      style="font-family: var(--font-display); font-size: var(--text-base); font-weight: 700; color: white; line-height: 1.2;">
+                      Más rápido</div>
+                  </div>
+                </div>
+
+                <!-- Estadística 3 -->
+                <div class="stat-item"
+                  style="display: flex; align-items: center; gap: var(--space-4); opacity: 0; transform: scale(0.8); animation: scaleIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; animation-delay: 0.6s;">
+                  <div style="position: relative; width: 90px; height: 90px; flex-shrink: 0;">
+                    <svg width="90" height="90"
+                      style="transform: rotate(-90deg); filter: drop-shadow(0 4px 12px rgba(74, 222, 128, 0.3));">
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="6" />
+                      <circle cx="45" cy="45" r="38" fill="none" stroke="#4ade80" stroke-width="6"
+                        stroke-dasharray="238.76" stroke-dashoffset="238.76" stroke-linecap="round"
+                        class="stat-circle-3">
+                      </circle>
+                    </svg>
+                    <div
+                      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                      <div
+                        style="font-family: var(--font-display); font-weight: 900; font-size: var(--text-2xl); color: #4ade80; line-height: 1;">
+                        <span class="counter-premium" data-target="90">0</span><span style="font-size: 0.85em;">%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="text-align: left;">
+                    <div
+                      style="font-family: var(--font-display); font-size: var(--text-base); font-weight: 700; color: white; line-height: 1.2;">
+                      Retención</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna 2: Formulario para Empresas -->
+          <div
+            style="background: rgba(255,250,255,0.98); border-radius: var(--radius-2xl); padding: var(--space-8); box-shadow: 0 25px 60px rgba(0,0,0,0.35); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.8); opacity: 0; animation: fadeIn 0.8s ease-out forwards; animation-delay: 0.3s;">
+            <div style="text-align: center; margin-bottom: var(--space-6);">
+
+              <h3
+                style="font-family: var(--font-display); font-size: var(--text-3xl); font-weight: 800; color: var(--color-forest-dark); margin: 0; letter-spacing: -0.01em;">
+                Para Instituciones
+              </h3>
+              <p
+                style="font-family: var(--font-body); font-size: var(--text-base); color: var(--color-neutral-700); margin-top: var(--space-3); line-height: var(--leading-relaxed);">
+                Colegios, universidades y empresas: colaboremos para crear una experiencia educativa a medida.
+              </p>
+            </div>
+
+            <form style="display: flex; flex-direction: column; gap: var(--space-3);">
+
+              <!-- Email de contacto - Inline compacto -->
+              <div style="display: flex; align-items: center; gap: var(--space-3);">
+                <label
+                  style="font-family: var(--font-body); font-weight: 600; color: var(--color-neutral-800); font-size: var(--text-sm); white-space: nowrap; min-width: 130px;">
+                  Email *
+                </label>
+                <input type="email" required
+                  style="width: 100%; padding: var(--space-3); border: 2px solid #e5e7eb; border-radius: var(--radius-lg); 
+                         font-size: var(--text-base); transition: all var(--transition-base); font-family: var(--font-body);"
+                  onfocus="this.style.borderColor='var(--color-forest)'; this.style.boxShadow='0 0 0 3px rgba(74, 143, 92, 0.1)';"
+                  onblur="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';"
+                  placeholder="contacto@institucion.com">
+              </div>
+              <!-- Email de contacto - Inline compacto -->
+              <div style="display: flex; align-items: center; gap: var(--space-3);">
+
+                <input type="text" required
+                  style="width: 100%; padding: var(--space-3); border: 2px solid #e5e7eb; border-radius: var(--radius-lg); 
+                         font-size: var(--text-base); transition: all var(--transition-base); font-family: var(--font-body);"
+                  onfocus="this.style.borderColor='var(--color-forest)'; this.style.boxShadow='0 0 0 3px rgba(74, 143, 92, 0.1)';"
+                  onblur="this.style.borderColor='#e5e7eb'; this.style.boxShadow='none';"
+                  placeholder="Describe tu proyecto o necesidades educativas...">
+              </div>
+
+              <!-- Botón centrado -->
+              <div style="text-align: center; margin-top: var(--space-2);">
+                <button type="submit"
+                  style="width: 100%; background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-forest-dark) 100%); 
+                         color: white; padding: var(--space-4); border: none; border-radius: var(--radius-lg); 
+                         font-weight: 800; font-size: var(--text-lg); cursor: pointer; 
+                         box-shadow: 0 10px 30px rgba(74, 143, 92, 0.3); transition: all var(--transition-base); font-family: var(--font-display); letter-spacing: 0.02em;"
+                  onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 12px 35px rgba(74, 143, 92, 0.4)';"
+                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(74, 143, 92, 0.3)';">
+                  SOLICITAR INFORMACIÓN
+                </button>
+              </div>
+            </form>
+
+            <p
+              style="margin-top: var(--space-4); font-family: var(--font-body); font-size: var(--text-sm); color: var(--color-neutral-600); text-align: center; line-height: 1.4;">
+              ⚡ <strong>Respuesta en menos de 24 horas</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
 
     <!--=========================
           SECCIÓN BLANCA - Descargar
@@ -308,7 +553,7 @@
         </div>
 
         <!-- Imagen a la derecha -->
-        <div style="display: flex; justify-content: center;">
+        <div>
           <img src="assets/img/characters/sing_up.png" alt="NutQuest en tu dispositivo"
             style="width: 500px; height: 500px; object-fit: contain; object-position: center;" />
         </div>
